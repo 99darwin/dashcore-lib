@@ -1,24 +1,24 @@
-Bitcore-Dash Library
+Bitcore-Divi Library
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-lib-divi.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib-divi)
 [![Build Status](https://img.shields.io/travis/divicoin/bitcore-lib-divi.svg?branch=master&style=flat-square)](https://travis-ci.org/divicoin/bitcore-lib-divi)
 [![Coverage Status](https://img.shields.io/coveralls/divicoin/bitcore-lib-divi.svg?style=flat-square)](https://coveralls.io/github/divicoin/bitcore-lib-divi?branch=master)
 
-A pure and powerful JavaScript Dash library.
+A pure and powerful JavaScript Divi library.
 
 ## Principles
 
-Dash is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Dash network allows for highly resilient dash infrastructure, and the developer community needs reliable, open-source tools to implement dash apps and services.
+Divi is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Divi network allows for highly resilient divi infrastructure, and the developer community needs reliable, open-source tools to implement divi apps and services.
 
 ## Get Started
 
 ```
-npm install bitcore-lib-divi
+npm install divicore-lib
 ```
 
 ```
-bower install bitcore-lib-divi
+bower install divicore-lib
 ```
 
 ## Documentation
@@ -36,8 +36,8 @@ To get community assistance and ask for help with implementation questions, plea
 * [Generate a address from a SHA256 hash](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
 * [Import an address via WIF](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#import-an-address-via-wif)
 * [Create a Transaction](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#create-a-transaction)
-* [Sign a Dash message](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#sign-a-bitcoin-message)
-* [Verify a Dash message](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#verify-a-bitcoin-message)
+* [Sign a Divi message](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#sign-a-bitcoin-message)
+* [Verify a Divi message](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#verify-a-bitcoin-message)
 * [Create an OP RETURN transaction](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#create-an-op-return-transaction)
 * [Create a 2-of-3 multisig P2SH address](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
 * [Spend from a 2-of-2 multisig P2SH address](https://github.com/divicoin/bitcore-lib-divi/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
@@ -94,4 +94,4 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 Code released under [the MIT license](https://github.com/divicoin/bitcore-lib-divi/blob/master/LICENSE).
 
 Copyright 2013-2017 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-Copyright 2016-2017 The Dash Foundation, Inc.
+Copyright 2016-2017 The Divi Foundation, Inc.

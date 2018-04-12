@@ -4,14 +4,14 @@
   "version": "0.15.3",
   "homepage": "https://github.com/dashevo/bitcore-lib-divi",
   "authors": [
-    "Dash", "BitPay, Inc."
+    "Divi", "BitPay, Inc."
   ],
-  "description": "A pure, powerful core for your dash project.",
+  "description": "A pure, powerful core for your divi project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "dash",
+    "divi",
     "bitcoin",
     "bitcore",
     "btc",

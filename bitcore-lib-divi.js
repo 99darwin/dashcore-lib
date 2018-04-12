@@ -11552,7 +11552,7 @@ var Unit = require('./unit');
  * @example
  * ```javascript
  *
- * var uri = new URI('dash:XsV4GHVKGTjQFvwB7c6mYsGV3Mxf7iser6?amount=1.2');
+ * var uri = new URI('divi:XsV4GHVKGTjQFvwB7c6mYsGV3Mxf7iser6?amount=1.2');
  * console.log(uri.address, uri.amount);
  * ```
  *
@@ -11615,7 +11615,7 @@ URI.fromObject = function fromObject(json) {
  * @example
  * ```javascript
  *
- * var valid = URI.isValid('dash:XsV4GHVKGTjQFvwB7c6mYsGV3Mxf7iser6');
+ * var valid = URI.isValid('divi:XsV4GHVKGTjQFvwB7c6mYsGV3Mxf7iser6');
  * // true
  * ```
  *
@@ -11642,8 +11642,8 @@ URI.isValid = function(arg, knownParams) {
 URI.parse = function(uri) {
   var info = URL.parse(uri, true);
 
-  if (info.protocol !== 'dash:') {
-    throw new TypeError('Invalid dash URI');
+  if (info.protocol !== 'divi:') {
+    throw new TypeError('Invalid divi URI');
   }
 
   // workaround to host insensitiveness
@@ -11667,7 +11667,7 @@ URI.prototype._fromObject = function(obj) {
   /* jshint maxcomplexity: 10 */
 
   if (!Address.isValid(obj.address)) {
-    throw new TypeError('Invalid dash address');
+    throw new TypeError('Invalid divi address');
   }
 
   this.address = new Address(obj.address);
@@ -11737,7 +11737,7 @@ URI.prototype.toString = function() {
   _.extend(query, this.extras);
 
   return URL.format({
-    protocol: 'dash:',
+    protocol: 'divi:',
     host: this.address,
     query: query
   });
@@ -60698,7 +60698,7 @@ module.exports.AES_ROUND_NOKEY_LE = function(X, Y) {
 ///////////////  Blake //////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -60924,7 +60924,7 @@ module.exports = function(input, format, output) {
 //////////////  BMW /////////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -61282,7 +61282,7 @@ module.exports = function(input, format, output) {
 ////////////  Cubehash //////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -61614,7 +61614,7 @@ module.exports = function(input, format, output) {
 ///////////////  Echo ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -61901,7 +61901,7 @@ module.exports = function(input, format, output) {
 ////////////  groestl ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -63323,7 +63323,7 @@ module.exports.string2Int32Buffer = function (s) {
 ///////////////  Jh /////////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -64324,7 +64324,7 @@ module.exports = methods;
 //////////////  Luffa ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -65244,7 +65244,7 @@ module.exports.xORTable = function(d, s1, s2, len) {
 ////////////  Shavite ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -65940,7 +65940,7 @@ module.exports = function(input, format, output) {
 //////////////  Simd ///////////////
 
 //// Written by Quantum Explorer ////
-////////// Dash Foundation //////////
+////////// Divi Foundation //////////
 /// Released under the MIT License //
 /////////////////////////////////////
 
@@ -66632,7 +66632,7 @@ function block(c, tweak, b, off) {
 module.exports={
   "name": "bitcore-lib-divi",
   "version": "0.15.3",
-  "description": "A pure and powerful JavaScript Dash library.",
+  "description": "A pure and powerful JavaScript Divi library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -66692,7 +66692,7 @@ module.exports={
     },
     {
       "name": "Jon Kindel",
-      "email": "jon@dash.org"
+      "email": "jon@diviproject.org"
     },
     {
       "name": "Alex Werner",
@@ -66700,7 +66700,7 @@ module.exports={
     }
   ],
   "keywords": [
-    "dash",
+    "divi",
     "transaction",
     "address",
     "p2p",
