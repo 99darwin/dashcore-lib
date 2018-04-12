@@ -26103,7 +26103,7 @@ module.exports={
   "_args": [
     [
       "elliptic@6.4.0",
-      "/home/pierre/dev/bitcore-lib-dash"
+      "/home/pierre/dev/bitcore-lib-divi"
     ]
   ],
   "_development": true,
@@ -26128,7 +26128,7 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_spec": "6.4.0",
-  "_where": "/home/pierre/dev/bitcore-lib-dash",
+  "_where": "/home/pierre/dev/bitcore-lib-divi",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -28472,7 +28472,7 @@ module.exports={
   "_args": [
     [
       "elliptic@6.4.0",
-      "/home/pierre/dev/bitcore-lib-dash"
+      "/home/pierre/dev/bitcore-lib-divi"
     ]
   ],
   "_development": true,
@@ -28497,7 +28497,7 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_spec": "6.4.0",
-  "_where": "/home/pierre/dev/bitcore-lib-dash",
+  "_where": "/home/pierre/dev/bitcore-lib-divi",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -32638,7 +32638,7 @@ module.exports={
   "_args": [
     [
       "elliptic@3.0.3",
-      "/home/pierre/dev/bitcore-lib-dash"
+      "/home/pierre/dev/bitcore-lib-divi"
     ]
   ],
   "_from": "elliptic@3.0.3",
@@ -32662,7 +32662,7 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-3.0.3.tgz",
   "_spec": "3.0.3",
-  "_where": "/home/pierre/dev/bitcore-lib-dash",
+  "_where": "/home/pierre/dev/bitcore-lib-divi",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -66630,7 +66630,7 @@ function block(c, tweak, b, off) {
 }
 },{"./helper":269,"./op":273}],277:[function(require,module,exports){
 module.exports={
-  "name": "bitcore-lib-dash",
+  "name": "bitcore-lib-divi",
   "version": "0.15.3",
   "description": "A pure and powerful JavaScript Dash library.",
   "author": "BitPay <dev@bitpay.com>",
@@ -66717,12 +66717,12 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/bitcore-lib-dash.git"
+    "url": "https://github.com/dashevo/bitcore-lib-divi.git"
   },
   "bugs": {
-    "url": "https://github.com/dashevo/bitcore-lib-dash/issues"
+    "url": "https://github.com/dashevo/bitcore-lib-divi/issues"
   },
-  "homepage": "https://github.com/dashevo/bitcore-lib-dash",
+  "homepage": "https://github.com/dashevo/bitcore-lib-divi",
   "browser": {
     "request": "browser-request"
   },
